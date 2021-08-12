@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "init": "et --init",
-    "watch": "et --watch",
     "build": "et",
     "preinstall": "npx npm-force-resolutions"
   },
