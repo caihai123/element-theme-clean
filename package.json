@@ -1,0 +1,19 @@
+{
+  "name": "element-theme-clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "et --init",
+    "watch": "et --watch",
+    "build": "et"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "element-theme": "^2.0.1",
+    "element-theme-chalk": "^2.15.5"
+  }
+}
