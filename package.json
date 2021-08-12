@@ -6,7 +6,8 @@
   "scripts": {
     "init": "et --init",
     "watch": "et --watch",
-    "build": "et"
+    "build": "et",
+    "preinstall": "npx npm-force-resolutions"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
   "devDependencies": {
     "element-theme": "^2.0.1",
     "element-theme-chalk": "^2.15.5"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }
